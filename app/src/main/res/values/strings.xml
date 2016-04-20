@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestingBase</string>
+
+    <string-array name="colors_array">
+        <item>White</item>
+        <item>Magenta</item>
+        <item>Green</item>
+        <item>Cyan</item>
+    </string-array>
+</resources>

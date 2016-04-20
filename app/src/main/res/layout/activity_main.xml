@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.teamtreehouse.testingbase.MainActivity"
+    android:id="@+id/bg"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginBottom="100dp"
+        android:textSize="24sp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="change me"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/editText"/>
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Change Background Color"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/colorSpinner"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Start Activity"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/launchActivityButton"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
