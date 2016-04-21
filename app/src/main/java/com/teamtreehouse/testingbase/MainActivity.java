@@ -27,17 +27,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Initialize Views
         textView = (TextView) findViewById(R.id.textView);
         editText = (EditText) findViewById(R.id.editText);
-
+        launchActivityButton = (Button) findViewById(R.id.launchActivityButton);
+        bg = (LinearLayout) findViewById(R.id.bg);
         colorSpinner = (Spinner) findViewById(R.id.colorSpinner);
+
+        // Setup Spinner
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.colors_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         colorSpinner.setAdapter(adapter);
-
-        launchActivityButton = (Button) findViewById(R.id.launchActivityButton);
-        bg = (LinearLayout) findViewById(R.id.bg);
 
         editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
