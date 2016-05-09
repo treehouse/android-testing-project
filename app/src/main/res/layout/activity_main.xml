@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.teamtreehouse.testingbase.MainActivity"
-    android:id="@+id/bg"
+    android:id="@+id/linearLayout"
     android:gravity="center">
 
     <TextView
@@ -41,7 +41,7 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Start Activity"
+        android:text="Launch Activity"
         android:layout_marginBottom="10dp"
         android:id="@+id/launchActivityButton"
         android:layout_gravity="center_horizontal"/>
